@@ -1,6 +1,6 @@
 FROM circleci/android:api-25-alpha
 
-RUN sudo apt update && apt install cmake
+RUN sudo apt-get update && sudo apt-get install cmake
 
 # Download and untar NDK
 ENV ANDROID_NDK_HOME /usr/local/android-ndk-linux
